@@ -689,7 +689,7 @@
 /* Стилизия всей вашей коллекции */
 .all-your-collection {
     width: 1920px;
-    height: 600px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -697,7 +697,10 @@
 }
 .all-your-collection-container {
     width: 1600px;
-    height: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 .all-your-collection-container-title {
     width: 500px;
@@ -711,14 +714,12 @@
     height: 550px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap:20px;
+    justify-content: space-between;
 }
 .all-your-collection-container-block {
     width: 500px;
     height: 550px;
     display: flex;
-    gap:20px;
     flex-direction: column;
 }
 .all-your-collection-container-block-images-block {
@@ -747,7 +748,7 @@
     width: 500px;
     height: 150px;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     font-family: "DM Sans", sans-serif;
 }
@@ -755,7 +756,7 @@
     width: 300px;
     height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column ;
 }
 .all-your-collection-container-block-info-title {
@@ -768,7 +769,7 @@
     width: 250px;
     height: 70px;
     display: flex;
-    align-items: center;
+    align-items: end;
     gap:20px;
     font-size: 30px;
     font-weight: 700;
@@ -784,10 +785,233 @@
     border-radius: 25px;
     border: 2px solid #2639ED;
     color:#2639ED;
+
 }
 
 .all-your-collection-container-block-info-button button:hover{
     background-color: #2639ED;
     color:white;
+    transition: 0.7s;
+}
+
+
+/* Самый сложный, для меня */
+.discover {
+    width: 1920px;
+    height: 2100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9E0EC;
+}
+.discover-container {
+    width: 1700px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Заголовок */
+.discover-container-title-block {
+    width: 420px;
+    height: 50px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Intergral CF";
+    font-weight: 700;
+}
+/* Каталог */
+.discover-container-catalog-block {
+    width: 1700px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.catalog-nav ul {
+    width: 1400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.catalog-nav button{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.color{
+    width: 180px;
+    height: 38px;
+    background-color: #3D00B7;
+    color: white;;
+}
+.color:hover{
+    background-color: white;
+    border: 2px solid #3D00B7;
+    color:#3D00B7;
+    transition: 0.7s;
+    color:white;
+}
+.not-color{
+    width: 150px;
+    height: 38px;
+    border: 2px solid #3D00B7;
+    color:#3D00B7;
+}
+.not-color:hover{
+    background-color: #3D00B7;
+    color:#ffffff;
+    transition: 0.7s;
+}
+.catalog-nav button {
+    border-radius: 15px;
+}
+.discover-container-catalog-block-all-filter button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    color:#371C87;
+}
+/* Карточки) */
+.discover-container-carts-container {
+    width: 1700px;
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.discover-container-carts-block {
+    width: 1700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discover-container-carts-block-cart {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid #F2F2F2;
+    background-color: white;;
+}
+.discover-container-carts-block-cart-image-block{
+    position: relative;
+}
+.discover-container-carts-block-cart-image-block img{
+    width: 330px;
+    height: 200px;
+}
+.discover-container-carts-block-cart-image-block:before{
+    content: url(../Images/discover-background-avatars.png);
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    bottom:0px;
+    left:10px;
+}
+.discover-container-carts-block-cart-info-block{
+    width: 330px;
+    height: 70px;
+}
+.discover-container-carts-block-cart-info-block h4{
+    font-size: 25px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    
+}
+.discover-container-carts-block-cart-info-block-etherium-list{
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#00AC4F;
+}
+
+.discover-container-carts-block-cart-info-block-etherium-list p:nth-child(1),.discover-container-carts-block-cart-info-block-etherium-list p:nth-child(2){
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+.discover-container-carts-block-cart-info-block-etherium-list p>img{
+    width: 16px;
+    height: 16px;
+}
+.discover-container-carts-block-cart-info-block-etherium-list p:nth-child(2){
+    color: #838383;
+    width: 80px;
+    height: 30px;
+    border-radius: 0px;
+}
+.discover-container-carts-block-cart-timer-and-bid-block {
+    width: 330px;
+    height: 50px;
+    border-top: 2px solid #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
+}
+.discover-container-carts-block-cart-timer {
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color:#5539A8;
+}
+.discover-container-carts-block-cart-bid {
+    width: 130px;
+    height: 30px;
+    color:#4F33A3;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+/* Кнопочка */
+.discover-container-button {
+    margin: 20px auto;
+}
+.discover-container-button button{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3D00B7;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    color: #3D00B7;
+}
+
+.discover-container-button button:hover{
+    color:white;
+    background-color: #3D00B7;
     transition: 0.7s;
 }
