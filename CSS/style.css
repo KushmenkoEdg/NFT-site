@@ -1015,3 +1015,154 @@
     background-color: #3D00B7;
     transition: 0.7s;
 }
+/* Footer */
+.nft-footer{
+    width: 1920px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nft-footer-container {
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nft-footer-container-main-info-block {
+    width: 1500px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nft-footer-container-info-block,.nft-footer-container-stay-in-the-loop-block{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+}
+.nft-footer-container-info-block-title {
+    width: 500px;
+    height: 60px;
+    font-size: 35px;
+    font-family: "Integral CF";
+    font-weight: 700;
+}
+.nft-footer-container-info-block-p,.nft-footer-container-stay-in-the-loop-block-p {
+    width: 480px;
+    height: 90px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #565656;
+    font-family: "DM Sans", sans-serif;
+}
+.nft-footer-container-info-block-social-networks {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+/* Маркет Плейс "Стилизация" */
+
+.nft-footer-container-marketplace-block,.nft-footer-container-myaccount-block {
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+}
+.nft-footer-container-marketplace-block-title,.nft-footer-container-myaccount-block-title{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.nft-footer-container-marketplace-block nav>ul,.nft-footer-container-myaccount-block nav>ul{
+    width: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nft-footer-container-myaccount-block nav>ul{
+    height: 200px;
+}
+.nft-footer-container-stay-in-the-loop-block {
+    width: 500px;
+    height: 350px;
+    font-family: "DM Sans", sans-serif;
+}
+.nft-footer-container-stay-in-the-loop-block-title {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.nft-footer-container-stay-in-the-loop-block-p {
+    font-size: 18px;
+}
+.nft-footer-container-stay-in-the-loop-block-message-email form {
+    width: 500px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    border: 2px solid #F1F1F1;
+}
+
+.nft-footer-container-stay-in-the-loop-block-message-email input{
+    width: 220px;
+    height: 50px;
+    display: flex;
+    font-size: 18px;
+}
+.nft-footer-container-stay-in-the-loop-block-message-email input::placeholder{
+    color:#959595;
+}
+.nft-footer-container-stay-in-the-loop-block-message-email button{
+    background-color: #2639ED;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nft-footer-container-stay-in-the-loop-block-message-email button:hover{
+    background-color: white;
+    border: 2px #2639ED solid;
+    color:#2639ED;
+    transition: 0.7s;
+}
+.nft-footer-container-copyrigth-block {
+    width: 1500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #F4F4F4;
+}
+.nft-footer-container-copyrigth-block p{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items:end;
+    justify-content: end;
+    color: #A4A4A4;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
