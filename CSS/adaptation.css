@@ -1,7 +1,7 @@
-@media (max-width:500px){
+@media (max-width:600px){
     /* Header */
     .site-header{
-        max-width: 320px;
+        max-width: 400px;
     }
     .header-container-bar{
         margin-left: 20px;
@@ -20,35 +20,57 @@
     /* Main page */
 
     .main-home-page,.main-home-page-container{
-        max-width: 320px;
-        height: 13git 00px;
+        max-width: 400px;
+        height: 1300px;
+        flex-direction: column;
+        justify-content: space-around;
         background-color: aqua;
     }
 
     .main-home-page-container-info{
-        width: 320px;
-        height: 1000px;
+        width: 400px;
+        height: 600px;
         background-color: rgb(174, 91, 91);
     }
     .main-home-page-container-info-title {
-        width: 320px;
-        height: 300px;
+        width: 400px;
+        height: 150px;
         background-color: blue;
     }
     .main-home-page-container-info-text {
-        width: 320px;
-        height: 200px;
+        width: 400px;
+        height: 150px;
         background-color: aqua;
     }
-    .main-home-page-container-info-button {
-    }
     .main-home-page-container-info-statistic {
-        width: 320px;
-        height: 200px;
+        width: 400px;
+        height: 50px;
+        background-color: aqua;
     }
     .main-home-page-container-info-statistic-block {
-        width: 70px;
+        width: 100px;
         height: 50px;
         background-color: aliceblue;
+    }
+
+
+    .main-home-page-container-images {
+        width: 400px;
+        height: 500px;
+        background-color: black;
+    }
+    .main-home-page-container-images-sticker {
+    }
+    .main-home-page-container-NFT {
+    }
+    .main-home-page-container-NFT-name-and-userinfo {
+    }
+    .main-home-page-container-userinfo {
+    }
+    .main-home-page-container-NFT-bid-and-timer {
+    }
+    .main-home-page-container-NFT-bid-info {
+    }
+    .main-home-page-container-NFT-timer {
     }
 }
