@@ -28,6 +28,21 @@
     align-items: center;
     gap:30px;
 }
+
+.header-container-bar-burger{
+    width: 30px;
+    height:  30px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.header-container-bar-burger span{
+    width: 30px;
+    height: 4px;
+    background-color: #2639ED;
+}
 .header-container-bar-company-name {
     width: 200px;
     height: 80px;
