@@ -265,11 +265,11 @@
     /* Предпоследний блок */
     .discover {
         width: 400px;
-        height: 8000px;
+        height: 7800px;
     }
     .discover-container {
         width: 400px;
-        height: 8000px;
+        height: 7800px;
         display: flex;
         justify-content: start;
         gap:10px;
@@ -298,13 +298,13 @@
     }
     .discover-container-carts-container {
         width: 400px;
-        height: 6800px;
+        height: 7000px;
         gap:20px;
         flex-direction: column;
     }
     .discover-container-carts-block {
         width: 400px;
-        height: 7500px;
+        height: 7000px;
         flex-direction: column;
         gap:30px;
     }
@@ -349,10 +349,4 @@
         padding-left: 20px;
     }
 
-    .nft-footer-container-copyrigth-block{
-        width: 400px;
-        height: 100px;
-        background-color: rgb(0, 0, 0);
-        font-size: 30px;
-    }
 }
