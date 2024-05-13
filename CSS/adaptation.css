@@ -3,6 +3,12 @@
     .site-header{
         max-width: 400px;
     }
+
+    .header-container-bar-company-name{
+        width: 100px;
+        height: 50px;
+        font-size: 16px;
+    }
     .header-container-bar{
         margin-left: 20px;
     }
@@ -12,11 +18,36 @@
         display: none;
     }
 
+    .header-container-bar-company-search input{
+        width: 50px;
+        height: 30px;
+    }
+    .header-container-bar-company-search  form{
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
+        justify-content: center;
+    }
     .header-container-bar-company-buttons :nth-child(2){
         width: 150px;
         height: 50px;
         font-size: 18px;
     }
+
+    .header-container-bar-company-buttons {
+        width: 60px;
+        height: 90px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+    }
+    .header-container-bar-company-buttons :nth-child(1),.header-container-bar-company-buttons :nth-child(2){
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+
     /* Main page */
 
     .main-home-page,.main-home-page-container{
@@ -24,53 +55,68 @@
         height: 1300px;
         flex-direction: column;
         justify-content: space-around;
-        background-color: aqua;
     }
 
     .main-home-page-container-info{
         width: 400px;
         height: 600px;
-        background-color: rgb(174, 91, 91);
     }
     .main-home-page-container-info-title {
         width: 400px;
         height: 150px;
-        background-color: blue;
     }
     .main-home-page-container-info-text {
         width: 400px;
         height: 150px;
-        background-color: aqua;
     }
     .main-home-page-container-info-statistic {
         width: 400px;
         height: 50px;
-        background-color: aqua;
     }
     .main-home-page-container-info-statistic-block {
         width: 100px;
         height: 50px;
-        background-color: aliceblue;
     }
 
 
     .main-home-page-container-images {
         width: 400px;
         height: 500px;
-        background-color: black;
     }
-    .main-home-page-container-images-sticker {
+
+    /* Amazing Block */
+    .amaze-block {
+        width: 400px;
+        height: 900px;
     }
-    .main-home-page-container-NFT {
+    .amaze-block-container {
+        width: 400px;
+        height: 900px;
+        flex-direction: column;
     }
-    .main-home-page-container-NFT-name-and-userinfo {
+    .amaze-block-container-title-block {
+        margin: 0 auto;
+        width: 380px;
+        height: 70px;
+
     }
-    .main-home-page-container-userinfo {
+    .amaze-block-container-block-info {
+        width: 400px;
+        height: 600px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .main-home-page-container-NFT-bid-and-timer {
+    .amaze-block-container-block-info-block {
+        width: 400px;
+        height: 600px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .main-home-page-container-NFT-bid-info {
+    .amaze-block-container-block-info-block-1,.amaze-block-container-block-info-2 {
+        width: 400px;
+        height: 300px;
     }
-    .main-home-page-container-NFT-timer {
-    }
+
 }
