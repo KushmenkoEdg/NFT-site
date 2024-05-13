@@ -272,16 +272,16 @@
         height: 8000px;
         display: flex;
         justify-content: center;
-        gap:30px;
+        gap:10px;
+        align-items: start;
     }
-    .discover-container-title-block h3{
+    .discover-container-title-block{
         width: 400px;
         height: 100px;
-        background-color: aqua;
     }
     .discover-container-catalog-block {
         width: 380px;
-        height: 700px;
+        height: 500px;
         margin:0 auto;  
         flex-direction: column;
         justify-content: center;
