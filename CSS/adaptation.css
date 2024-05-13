@@ -123,13 +123,11 @@
         width: 400px;
         height: 1900px;
         margin-top: 20px;
-        background-color: aqua;
     }
     .collection-nft-block-container {
         width: 400px;
         height: 1900px;
         flex-direction: column;
-        background-color: rgb(241, 42, 42);
     }
     .collection-nft-block-container-my-collection-block {
         width: 400px;
@@ -142,16 +140,13 @@
     .collection-nft-block-container-my-collection-block-other {
         width: 380px;
         height: 700px;
-        background-color: aqua;
     }
     .collection-nft-block-container-my-collection-block-other-block {
         width: 380px;
         height: 700px;
-        background-color: rgb(104, 240, 240);
     }
     .collection-nft-block-container-my-collection-block-other-block-info {
         width: 250px;
-        background-color: blanchedalmond;
     }
     .collection-nft-block-container-my-collection-block-other-block-button,.collection-nft-block-container-my-collection-block-other-block-button-no-background,.collection-nft-block-container-my-collection-block-other-block-info-name  {
         padding-left: 15px;
@@ -164,7 +159,6 @@
     .my-collection-block-collections-over-list-block {
         width: 400px;
         height: 100px;
-        background-color: rgb(215, 215, 240);
     }
 
     /* вся ваша коллекция */
@@ -178,7 +172,6 @@
         flex-direction: column;
         justify-content: start;
         gap:20px;
-        background-color: rgb(130, 197, 255);
     }
     .all-your-collection-container-title {
         width: 400px;
@@ -203,8 +196,155 @@
         font-size: 16px;
     }
     .all-your-collection-container-block-info-button button{
-        width: 100px;
-        height: 50px;
+        width: 130px;
+        height: 30px;
         font-size: 16px;
+    }
+
+    /* Создать свой NFT */
+    .create-your-nft {
+        width: 400px;
+        height: 1500px;
+        margin-top: 10px;
+    }
+    .create-your-nft-container {
+        width: 400px;
+        height: 1500px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .create-your-nft-container-image-block {
+        width: 400px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .create-your-nft-container-image-block-background-1{
+        width: 230px;
+        height: 150px;
+        top:0px;
+        left:0px;
+    }
+
+    .create-your-nft-container-image-block-background-1:after{
+        top:170px;
+        left:190px;
+        width: 25px;
+        height: 25px;
+    }
+    .create-your-nft-container-image-block-background-2{
+        width: 200px;
+        height: 100px;
+        top:7em;
+        left:11em;
+    }
+    .create-your-nft-container-image-block-background-2:after{
+        top:170px;
+        left:160px;
+    }
+    .create-your-nft-container-image-block-background-3{
+        width: 150px;
+        height: 100px;
+        top: 16em;
+        left: 2em;
+    }
+    .create-your-nft-container-image-block-background-3:after{
+        top:120px;
+        left:110px;
+    }
+    .create-your-nft-container-info-block {
+        width: 400px;
+        height: 400px;
+    }
+    .create-your-nft-container-info-block-text-block {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    /* Предпоследний блок */
+    .discover {
+        width: 400px;
+        height: 8000px;
+    }
+    .discover-container {
+        width: 400px;
+        height: 8000px;
+    }
+    .discover-container-title-block{
+        width: 400px;
+        height: 120px;
+    }
+    .discover-container-catalog-block {
+        width: 380px;
+        height: 700px;
+        margin:0 auto;  
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        margin-bottom: 10px;
+    }
+    .catalog-nav ul{
+        width: 380px;
+        height: 400px;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: column;
+    }
+    .discover-container-carts-container {
+        width: 400px;
+        height: 6800px;
+        gap:20px;
+        flex-direction: column;
+    }
+    .discover-container-carts-block {
+        width: 400px;
+        height: 7500px;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    /* Footer */
+    .nft-footer {
+        width: 400px;
+        height: 1500px;
+    }
+    .nft-footer-container {
+        width: 400px;
+        height: 1500px;
+        flex-direction: column;
+    }
+    .nft-footer-container-main-info-block {
+        width: 400px;
+        height: 1300px;
+        flex-direction: column;
+        gap:100px;
+    }
+    .nft-footer-container-info-block,.nft-footer-container-marketplace-block {
+        width: 400px;
+        height: 200px;
+    }
+    .nft-footer-container-info-block-p {
+        width: 400px;
+    }
+    .nft-footer-container-myaccount-block {
+        width: 400px;
+        height: 200px;
+    }
+    .nft-footer-container-stay-in-the-loop-block {
+        width: 400px;
+        height: 200px;
+    }
+    .nft-footer-container-stay-in-the-loop-block-p {
+        width: 400px;
+    }
+    .nft-footer-container-stay-in-the-loop-block-message-email form{
+        width: 400px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .nft-footer-container-stay-in-the-loop-block-message-email input::placeholder{
+        font-size: 14px;
+        padding-left: 20px;
     }
 }
