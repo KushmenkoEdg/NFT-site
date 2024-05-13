@@ -270,19 +270,24 @@
     .discover-container {
         width: 400px;
         height: 8000px;
+        display: flex;
+        justify-content: center;
+        gap:30px;
     }
-    .discover-container-title-block{
+    .discover-container-title-block h3{
         width: 400px;
-        height: 120px;
+        height: 100px;
+        background-color: aqua;
     }
     .discover-container-catalog-block {
         width: 380px;
         height: 700px;
         margin:0 auto;  
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: start;
         margin-bottom: 10px;
+        gap:10px;
     }
     .catalog-nav ul{
         width: 380px;
@@ -315,24 +320,20 @@
         flex-direction: column;
     }
     .nft-footer-container-main-info-block {
-        width: 400px;
+        width: 380px;
         height: 1300px;
         flex-direction: column;
         gap:100px;
     }
-    .nft-footer-container-info-block,.nft-footer-container-marketplace-block {
-        width: 400px;
+    .nft-footer-container-info-block,.nft-footer-container-marketplace-block,.nft-footer-container-myaccount-block {
+        width: 380px;
         height: 200px;
     }
     .nft-footer-container-info-block-p {
         width: 400px;
     }
-    .nft-footer-container-myaccount-block {
-        width: 400px;
-        height: 200px;
-    }
     .nft-footer-container-stay-in-the-loop-block {
-        width: 400px;
+        width: 380px;
         height: 200px;
     }
     .nft-footer-container-stay-in-the-loop-block-p {
